@@ -379,9 +379,31 @@ See the [example](example/) directory for complete examples:
 - [spot_example.dart](example/spot_example.dart) - Basic usage patterns
 - [spot_flutter_example.dart](example/spot_flutter_example.dart) - Flutter integration
 
+## Development
+
+### Git Hooks
+
+This repository includes Git hooks to ensure code quality:
+
+- **pre-push**: Runs `dart analyze` and `dart test` before pushing any branch
+
+To install the hooks after cloning:
+
+```bash
+./hooks/install.sh
+```
+
+The hooks will automatically prevent pushes if analysis or tests fail.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
+
+Before submitting a PR, make sure to:
+1. Install the Git hooks: `./hooks/install.sh`
+2. Run `dart analyze` to check for issues
+3. Run `dart test` to ensure all tests pass
+4. Run `dart format .` to format your code
 
 ## License
 

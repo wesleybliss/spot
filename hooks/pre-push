@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# Git pre-push hook: runs dart analyze and dart test
+
+echo "Running pre-push checks..."
+
+# Run Dart analyzer
+echo "Running dart analyze..."
+dart analyze
+if [ $? -ne 0 ]; then
+  echo "❌ ERROR: 'dart analyze' failed. Aborting push."
+  exit 1
+fi
+
+# Run Dart tests
+echo "Running dart test..."
+dart test
+if [ $? -ne 0 ]; then
+  echo "❌ ERROR: 'dart test' failed. Aborting push."
+  exit 1
+fi
+
+echo "✅ Pre-push checks passed."
+exit 0
