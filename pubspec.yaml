@@ -1,6 +1,6 @@
 name: spot_di
 description: A lightweight and powerful service locator for Dart and Flutter, supporting singletons, factories, async initialization, and scopes with zero dependencies.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/wesleybliss/spot
 repository: https://github.com/wesleybliss/spot
 issue_tracker: https://github.com/wesleybliss/spot/issues
