@@ -1,3 +1,5 @@
+import 'package:spot/spot.dart';
+
 /// Example demonstrating named instances in Spot DI container
 ///
 /// Named instances allow registering multiple implementations of the same type,
@@ -6,8 +8,6 @@
 /// - Multiple database connections (production, cache, analytics)
 /// - Environment-specific configurations (dev, staging, production)
 /// - Feature variants (experimental features)
-
-import 'package:spot/spot.dart';
 
 // Example interfaces and implementations
 
