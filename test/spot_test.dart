@@ -1,4 +1,4 @@
-import 'package:spot_di/spot.dart';
+import 'package:spot_di/spot_di.dart';
 import 'package:test/test.dart';
 
 // Test interfaces and implementations
