@@ -2,6 +2,9 @@
 
 **Spot** is a lightweight dependency injection (DI) framework for Dart and Flutter applications. Technically implemented as a service locator pattern, Spot provides a minimal yet powerful API for managing dependencies with support for singletons, factories, async initialization, and scoped containers.
 
+> Spot is currently in early development. The API may change in future releases.
+
+
 ## Features
 
 - 🎯 **Simple API** - Register and resolve dependencies with minimal boilerplate
@@ -20,7 +23,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  spot: ^1.0.0
+  spot_di: ^1.0.0
 ```
 
 Then run:
@@ -34,7 +37,7 @@ dart pub get
 ### Basic Usage
 
 ```dart
-import 'package:spot/spot.dart';
+import 'package:spot_di/spot.dart';
 
 // 1. Define your interfaces and implementations
 abstract class ILogger {
