@@ -1,4 +1,4 @@
-import 'package:spot/spot.dart';
+import 'package:spot_di/spot.dart';
 
 import 'example_class.dart';
 import 'example_singleton_class.dart';

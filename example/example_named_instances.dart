@@ -1,4 +1,4 @@
-import 'package:spot/spot.dart';
+import 'package:spot_di/spot.dart';
 
 /// Example demonstrating named instances in Spot DI container
 ///

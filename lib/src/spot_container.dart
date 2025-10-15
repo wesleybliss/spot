@@ -1,8 +1,8 @@
-import 'package:spot/src/disposable.dart';
-import 'package:spot/src/spot_base.dart';
-import 'package:spot/src/spot_exception.dart';
-import 'package:spot/src/spot_key.dart';
-import 'package:spot/src/logger.dart';
+import 'package:spot_di/src/disposable.dart';
+import 'package:spot_di/src/spot_base.dart';
+import 'package:spot_di/src/spot_exception.dart';
+import 'package:spot_di/src/spot_key.dart';
+import 'package:spot_di/src/logger.dart';
 
 /// A scoped DI container that supports parent-child hierarchies.
 /// 

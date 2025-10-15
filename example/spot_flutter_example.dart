@@ -1,5 +1,5 @@
 
-import 'package:spot/spot.dart';
+import 'package:spot_di/spot.dart';
 
 // Since this is a Dart library, we will comment out the Flutter-specific code.
 // You can uncomment this code when you use it in a Flutter project.
