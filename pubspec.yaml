@@ -1,7 +1,9 @@
 name: spot
-description: A starting point for Dart libraries or applications.
+description: A lightweight and powerful service locator for Dart and Flutter, supporting singletons, factories, async initialization, and scopes with zero dependencies.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+homepage: https://github.com/wesleybliss/spot
+repository: https://github.com/wesleybliss/spot
+issue_tracker: https://github.com/wesleybliss/spot/issues
 
 environment:
   sdk: ^3.8.1
